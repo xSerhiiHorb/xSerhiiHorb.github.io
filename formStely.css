@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.reserve-form {
+    width: 350px;
+    height: 400px;
+    background-color: transparent;
+    /* border-radius: 10px; */
+    border: #e7933f 1px solid;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wrap_reserve {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp_submit {
+    padding: 9px 50px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #e7933f;
+    border: #fff solid 1px;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+.inp_submit:hover {
+    background-color: #fff;
+    border: #e7933f solid 1px;
+    color: #7b7e81;
+    /* transition: all 0.5s; */
+}
+.inp_submit:active {
+    background-color: rgba(255, 255, 255, 0)
+}
+input[type="text"], input[type="tel"]{
+    width: 285px;
+    /* border-radius: 5px; */
+    height: 53px;
+    border: #e7933f 1px solid;
+    text-indent: 40px;
+}
+select[type="text"]{
+    width: 285px;
+    /* border-radius: 5px; */
+    height: 53px;
+    border: #e7933f 1px solid;
+    text-indent: 40px;
+    color: rgb(118, 118, 118);
+}
+select[type="text"]:focus {
+    outline: none;
+    border: #e7933f 2px solid;
+}
+
+.user::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f007';
+    position: absolute;
+    padding: 14px 0 0 11px;
+    color: #e7933f;
+    font-size: 22px;
+}
+.users::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f500';
+    position: absolute;
+    padding: 14px 0 0 11px;
+    color: #e7933f;
+    font-size: 22px;
+}
+.tel::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f3cd';
+    position: absolute;
+    padding: 14px 0 0 11px;
+    color: #e7933f;
+    font-size: 22px;
+}
+.time::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f017';
+    position: absolute;
+    padding: 14px 0 0 11px;
+    color: #e7933f;
+    font-size: 22px;
+}
+
+
+input[type="text"]:focus, input[type="tel"]:focus {
+    outline: none;
+    border: #e7933f 2px solid;  
+}
+
