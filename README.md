@@ -1,2 +1,2 @@
-# xSerhiiHorb.github.io
+# restaurant.github.io
 firstProject
